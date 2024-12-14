@@ -1,0 +1,84 @@
+body{
+    background-image: linear-gradient(to right, rgba(3,36,77,255), rgba(32,51,130,255));
+    /*background-image: radial-gradient(circle, rgba(3,36,77,255),rgba(19,51,112,255) , rgba(41,61,145,255));*/
+
+}
+
+.menu{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    /*background-color: aqua;*/
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    margin-right: 100px;
+    color: white;
+}
+
+.text{
+    display: inline-flex;
+    /*background-color: antiquewhite;*/
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.QR{
+    color: rgba(245,247,243,255);
+}
+
+.Code{
+    color: rgba(16,242,251,255);
+}
+
+.para{
+    color: white;
+}
+
+
+
+.url{
+    margin-left: 50px;
+}
+
+
+.Btn{
+    margin-top: 50px;
+    margin-left: 200px;
+    /*background-color: rgba(7,242,248,255);*/
+    background-image: linear-gradient(to right, rgba(7,242,248,255) , rgba(40,169,226,255));
+
+    padding: 10px;
+    width: 170px;
+    border-color: rgba(7,242,248,255);
+    border-radius: 30px;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+    transition: background-color 1s
+    
+}
+
+.Btn:hover{
+    background-image: linear-gradient(to right, rgba(16,47,101,255) ,rgba(3,36,77,255));
+}
+
+.blank{
+    margin-top: 10px;
+    margin-left: 120px;
+    background-color: rgba(127, 138, 150, 0.24);
+    width: 400px;
+    height: 30px;
+    border: 2px solid rgba(33,35,54,255);
+}
+
+.Enter{
+    margin-left: 170px;
+    color: rgba(6,247,246,255);
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+

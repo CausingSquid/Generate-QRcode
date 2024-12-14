@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "inquirer": "^12.2.0",
+    "qr-image": "^3.2.0"
+  },
+  "name": "qrcode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "v22.3.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

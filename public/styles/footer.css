@@ -1,0 +1,43 @@
+.footer{
+    margin-top: 500px;
+
+    background-color: rgba(15, 177, 222, 0.507);
+    height: 300px;
+    display: flex;
+    gap: 150px;
+}
+
+.Socials{
+    margin-top: 60px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.text{
+    margin-top: 40px;
+}
+
+.insta{
+    height: 50px;
+}
+
+.github{
+    height: 50px;
+}
+
+.linkedin{
+    
+    height: 50px;
+}
+
+.icons{
+    margin-top: 60px;
+}
+
+.a{
+    color: black;
+}
+
+h3{
+    font-family: sans-serif;
+}

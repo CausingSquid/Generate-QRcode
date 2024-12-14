@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="\styles\styles.css"></link>
+</head>
+<%- include("header.ejs") %>
+<body>
+    <div class="text">
+        <div>
+            <h1 class="QR">Generate QR Code</h1>
+            <h1 class="Code">From URL</h1>
+            
+        </div>
+
+        <div>
+            <p class="para"><br>A simple and efficient QR Code Generator that transforms URLs into scannable QR codes instantly.<br>
+                <br>Perfect for sharing links quickly and enhancing accessibility for websites, apps, and more!<br>
+                    <br>Make sure it is a valid URL, something like https://www.example.com/. And make sure to not misuse this website.<br></p>
+
+        </div>
+        <div>
+            <h3 class="Enter">Enter the URL :</h3>
+        </div>
+
+        <div>
+            <form action="/submit" method="POST" class="url">
+                <input type="text" id="url" name="url" class="blank" placeholder="https://www.example.com/" required>
+                <br><br>
+                <input type="submit" value="Submit" class="Btn">
+              </form>
+        </div>
+
+        <% if(locals.url){ %>
+            <h1 class="QR">The QR generated for <%= url %> :</h1>
+            <div class="image"> </div>
+    
+        <%} %>
+    
+        
+
+        
+
+
+
+    </div>
+    
+
+    
+
+  
+      <img src="/images/QRdesign-removebg-preview.png" alt="noooo" class="img">
+
+      
+      
+</body>
+<%- include("footer.ejs") %>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="\styles\about.css"></link>
+</head>
+<%- include("header.ejs") %>
+<body>
+
+    <div class="text">
+        <div class="box">
+            <div>
+                <div>
+                    <h1 class="Code">About</h1>
+                    
+                </div>
+        
+                <div>
+                    <p class="para"><br>The QR Code Generator is a handy tool designed to convert URLs into QR codes effortlessly. <br>
+                         <br>QR codes (Quick Response codes) are two-dimensional barcodes that store information like links, text, or contact details.<br>
+                         <br> They are widely used for quick and seamless sharing of information across devices.<br>
+        
+                        <br>This generator simplifies the process by allowing you to input any URL, which is then encoded into a scannable QR code.<br>
+                         <br> Whether you're sharing a website, promoting an app, or creating links for events, this tool ensures your content is just a scan away!<br>
+                         <br> <h1 class="how">How It Works</h1> <br>
+        
+                         <p>
+        
+                         <br> Input the URL: Enter the desired URL into the generator.<br>
+                         <br>Encoding the URL: The tool converts the URL into data, encoding it into the standard QR code format.<br> 
+                         <br>This process involves creating a pattern of black and white squares representing the information.<br>
+                         <br> Generating the QR Code: The encoded data is rendered visually as a QR code image that can be downloaded and shared.<br>
+                         <br>Scanning the QR Code: When scanned using a smartphone or QR code reader, the data is decoded back into the original URL, instantly redirecting the user.<br></p>
+        
+                </div>
+
+                <div>
+                    <form action="/" method="POST" class="url">
+            
+                        <input type="submit" value="Generate QR" class="code">
+                      </form>
+                </div>
+
+            </div>
+            <div>
+                <img src="/images/QRdesign-removebg-preview.png" alt="noooo" class="img">  
+            </div>
+
+            
+    
+        </div>
+        
+        
+    </div>
+    
+  
+    
+      
+</body>
+<%- include("footer.ejs") %>
+</html>
